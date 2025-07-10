@@ -1,8 +1,11 @@
-function App() {
+import FaceShapeSelector from "./components/FaceShapeSelector";
+
+const App=() =>{
   return (
-    <div className="bg-green-100 text-3xl font-bold text-center p-10">
-      ✅ Tailwind is working now!
+    <div className="min-h-screen bg-pink-50 flex items-center justify-center">
+      <FaceShapeSelector />
     </div>
   );
 }
+
 export default App;
