@@ -15,7 +15,7 @@ const FaceShapeSelector = () => {
     return(
         <div className="max-w-md mx-auto p-6">
         <h2 className="text-xl font-bold mb-4 text-center">Select Your Face Shape</h2>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {faceShapes.map((shape) => (
             <button
               key={shape.id}
